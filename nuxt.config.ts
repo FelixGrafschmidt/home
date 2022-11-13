@@ -1,11 +1,13 @@
-import { presetWind, presetAttributify } from "unocss";
+import { presetWind, presetAttributify, transformerDirectives } from "unocss";
 import { defineNuxtConfig } from "nuxt/config";
 import { presetScrollbar } from "unocss-preset-scrollbar";
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-	meta: {
-		title: "Ithambar's Homepage",
+	app: {
+		head: {
+			title: "Felix Grafschmidt - Homepage",
+		},
 	},
 	modules: ["@pinia/nuxt", "@unocss/nuxt", "nuxt-icon"],
 	unocss: {
@@ -24,17 +26,6 @@ export default defineNuxtConfig({
 				// config
 			}),
 		],
-		safelist: ["invisible"],
+		transformers: [transformerDirectives()],
 	},
-	runtimeConfig: {
-		googleApiKey: process.env.NUXT_GOOGLE_API_KEY,
-		public: {
-			dev: process.env.NODE_ENV !== "production",
-		},
-	},
-	vue: {
-		config: {
-			devtools: true,
-		},
-	},
-})
+});

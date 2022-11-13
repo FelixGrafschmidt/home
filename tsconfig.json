@@ -2,10 +2,10 @@
   // https://v3.nuxtjs.org/concepts/typescript
   "extends": "./.nuxt/tsconfig.json",
   "compilerOptions": {
-    "types": [
-      "@pinia/nuxt"
-    ],
-    "noImplicitAny": true,
-    "allowSyntheticDefaultImports": true
+	"types": [
+	  "@pinia/nuxt"
+	],
+	"noImplicitAny": true,
+	"allowSyntheticDefaultImports": true
   },
 }
