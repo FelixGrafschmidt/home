@@ -9,7 +9,7 @@ export default defineNuxtConfig({
 			title: "Felix Grafschmidt - Homepage",
 		},
 	},
-	modules: ["@pinia/nuxt", "@unocss/nuxt", "nuxt-icon"],
+	modules: ["@pinia/nuxt", "@unocss/nuxt", "nuxt-icon", "@vueuse/nuxt"],
 	unocss: {
 		// presets
 		uno: true, // enabled `@unocss/preset-uno`
