@@ -1,5 +1,5 @@
 <template>
-	<header flex="~ row" gap-x-2 justify-between items-center text-xl h-min>
+	<header flex="~ row" gap-x-2 justify-between items-center text-xl h-min md:px-20vw sm:px-10vw px="2.5vw">
 		<nuxt-link
 			h-24
 			flex="col ~"

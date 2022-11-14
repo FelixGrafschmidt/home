@@ -1,5 +1,5 @@
 <template>
-	<footer flex="~ row" gap-2 justify-between items-center>
+	<footer flex="~ row" gap-2 justify-between items-center md:px-20vw sm:px-10vw px="2.5vw">
 		<div flex="~ row wrap" gap-8 w="1/3">
 			<nuxt-link hover:text-teal-5 to="/imprint">Imprint</nuxt-link>
 			<nuxt-link hover:text-teal-5 to="/privacy">Privacy Policy</nuxt-link>
