@@ -10,7 +10,19 @@
 				<a w-fit hover:underline hover:text-teal-5 target="_blank" :href="project.url">
 					<span text-xl>{{ project.title }}</span>
 				</a>
-				<a mb-1 text-sm w-min hover:text-teal-5 target="_blank" :href="project.source">{{ project.source }}</a>
+				<a
+					mb-1
+					text-sm
+					w-min
+					text-ellipsis
+					overflow-x-hidden
+					whitespace-nowrap
+					max-w-95vw
+					hover:text-teal-5
+					target="_blank"
+					:href="project.source"
+					>{{ project.source }}</a
+				>
 				<p v-for="(line, j) in project.description" :key="j" my-1>{{ line }}</p>
 			</div>
 			<div xl:w="1/3" hidden xl:block>
