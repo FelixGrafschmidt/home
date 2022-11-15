@@ -13,7 +13,20 @@
 		sm:px-10vw
 		px="2.5vw"
 	>
-		<div h-50vh :hidden="!menuOpen" md:flex="~ row" gap-x-2 justify-between items-center md:w="3/7" lg:w="2/5" order-2 md:order-1>
+		<div
+			md="h-auto flex flex-row w-3/7 order-1 static"
+			lg="w-2/5"
+			absolute
+			left-0
+			top-20
+			w-full
+			bg-gray-8
+			:hidden="!menuOpen"
+			gap-x-2
+			justify-between
+			items-center
+			order-2
+		>
 			<nuxt-link
 				lg:h-24
 				h-16
@@ -21,7 +34,7 @@
 				justify-center
 				px-4
 				text-center
-				active-class=" md:border-teal-5 md:underline-none underline-teal underline"
+				active-class=" md:border-teal-5 md:[text-decoration-line:none] md:underline-none underline-teal underline"
 				border-b-2
 				hover="bg-gray-7 border-gray-7"
 				border-gray-8
@@ -37,7 +50,7 @@
 				whitespace-nowrap
 				px-4
 				text-center
-				active-class=" md:border-teal-5 md:underline-none underline-teal underline"
+				active-class=" md:border-teal-5 md:[text-decoration-line:none] md:underline-none underline-teal underline"
 				border-b-2
 				hover="bg-gray-7 border-gray-7"
 				border-gray-8
@@ -51,10 +64,23 @@
 				<Logo hover:text-teal-5 lg:h-24 lg:w-24 h-16 w-16 />
 			</nuxt-link>
 			<div md:hidden @click="menuOpen = !menuOpen">
-				<Icon name="fa:bars" h-8 w-8 />
+				<Icon :name="menuOpen ? 'fa:close' : 'fa:bars'" h-8 w-8 />
 			</div>
 		</div>
-		<div h-50vh :hidden="!menuOpen" md:flex="~ row" gap-x-2 justify-between items-center md:w="3/7" lg:w="2/5" order-3>
+		<div
+			md="h-auto flex flex-row w-3/7 static"
+			lg="w-2/5"
+			absolute
+			top-52
+			left-0
+			bg-gray-8
+			:hidden="!menuOpen"
+			gap-x-2
+			justify-between
+			items-center
+			w-full
+			order-3
+		>
 			<nuxt-link
 				lg:h-24
 				h-16
@@ -62,7 +88,7 @@
 				justify-center
 				px-4
 				text-center
-				active-class=" md:border-teal-5 md:underline-none underline-teal underline"
+				active-class=" md:border-teal-5 md:[text-decoration-line:none] md:underline-none underline-teal underline"
 				border-b-2
 				border-gray-8
 				hover="bg-gray-7 border-gray-7"
@@ -77,7 +103,7 @@
 				justify-center
 				px-4
 				text-center
-				active-class=" md:border-teal-5 md:underline-none underline-teal underline"
+				active-class=" md:border-teal-5 md:[text-decoration-line:none] md:underline-none underline-teal underline"
 				border-b-2
 				border-gray-8
 				hover="bg-gray-7 border-gray-7"

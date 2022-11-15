@@ -2,7 +2,7 @@
 	<div bg-gray-7 text-gray-3 min-h-screen flex="~ col" relative>
 		<Header bg-gray-8 w-full />
 		<NuxtPage flex-grow mx-auto py-4 md:w-80vw sm:w-80vw w-95vw />
-		<Footer h-20 bg-gray-8 />
+		<Footer bg-gray-8 />
 		<div text-center py-2>&copy; Felix Grafschmidt {{ new Date().getFullYear() }}</div>
 	</div>
 </template>
