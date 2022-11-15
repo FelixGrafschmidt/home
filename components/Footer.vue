@@ -1,5 +1,5 @@
 <template>
-	<footer h-min flex="~ col" md:flex="~ row" gap-2 justify-between items-center md:px-5vw sm:px-10vw px="2.5vw">
+	<footer h-min flex="~ col" md:flex="~ row" gap-2 justify-between items-center md:px-5vw sm:px-10vw px="2.5vw" lg:px-10vw>
 		<section flex="~ col" md:flex="~ row" md:gap-8 md:w="1/3">
 			<nuxt-link h-16 flex="col ~" justify-center w-screen md:w-auto text-center hover:text-teal-5 to="/imprint">Imprint</nuxt-link>
 

@@ -14,7 +14,7 @@
 		px="2.5vw"
 	>
 		<div
-			md="h-auto flex flex-row w-3/7 order-1 static"
+			md="h-auto flex flex-row w-3/7 order-1 static justify-end"
 			lg="w-2/5"
 			absolute
 			left-0
@@ -68,7 +68,7 @@
 			</div>
 		</div>
 		<div
-			md="h-auto flex flex-row w-3/7 static"
+			md="h-auto flex flex-row w-3/7 static justify-start"
 			lg="w-2/5"
 			absolute
 			top-52
