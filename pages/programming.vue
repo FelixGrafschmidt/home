@@ -1,5 +1,5 @@
 <template>
-	<main flex="col ~" gap-4>
+	<main flex="col ~" gap-4 xl:px-12vw>
 		<span text-2xl font-semibold>My Projects</span>
 		<section mb-4>
 			<p text-xl>Here you can find a list of the projects I have worked on over the years in my spare time.</p>
