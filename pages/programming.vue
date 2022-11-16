@@ -1,5 +1,5 @@
 <template>
-	<main flex="col ~" gap-4 xl:px-12vw>
+	<main flex="col ~" gap-4>
 		<span text-2xl font-semibold>My Projects</span>
 		<section mb-4>
 			<p text-xl>Here you can find a list of the projects I have worked on over the years in my spare time.</p>
@@ -37,7 +37,7 @@
 				/>
 			</div>
 		</section>
-		<dialog ref="dialog" p-0 w="80%" class="backdrop:bg-gray-5" @click="hideImage">
+		<dialog ref="dialog" p-0 w="80%" class="backdrop:bg-gray-9/70" @click="hideImage">
 			<img :src="largeImage" :alt="largeImage" @click.stop />
 		</dialog>
 		<div v-if="scrolled" sticky bottom-4 flex="~ row" justify-center>
@@ -109,11 +109,13 @@
 	});
 
 	function showImage(project: Project) {
+		document.body.classList.add("overflow-y-hidden");
 		largeImage.value = project.image;
 		dialog.value?.showModal();
 	}
 
 	function hideImage() {
+		document.body.classList.remove("overflow-y-hidden");
 		largeImage.value = "";
 		dialog.value?.close();
 	}
