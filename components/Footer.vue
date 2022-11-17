@@ -25,18 +25,18 @@
 				<Logo h-16 w-16 />
 			</section>
 			<section flex="~ row" gap-8 md:w="1/3" md:justify-end justify-between py-4 md:py-0>
-				<a href="https://github.com/FelixGrafschmidt" title="GitHub" target="_blank" hover:text-teal-5>
+				<nuxt-link to="https://github.com/FelixGrafschmidt" title="GitHub" target="_blank" hover:text-teal-5>
 					<Icon name="fa:github" h-8 w-8 />
-				</a>
-				<a href="https://www.linkedin.com/in/felix-grafschmidt-190a36172/" title="LinkedIn" target="_blank" hover:text-teal-5>
+				</nuxt-link>
+				<nuxt-link to="https://www.linkedin.com/in/felix-grafschmidt-190a36172/" title="LinkedIn" target="_blank" hover:text-teal-5>
 					<Icon name="fa:linkedin" h-8 w-8 />
-				</a>
-				<a href="https://www.xing.com/profile/Felix_Grafschmidt2" title="Xing" target="_blank" hover:text-teal-5>
+				</nuxt-link>
+				<nuxt-link to="https://www.xing.com/profile/Felix_Grafschmidt2" title="Xing" target="_blank" hover:text-teal-5>
 					<Icon name="fa:xing" h-8 w-8 />
-				</a>
-				<a href="https://cv.ithambar.moe?language=en" title="CV" target="_blank" hover:text-teal-5>
+				</nuxt-link>
+				<nuxt-link to="https://cv.ithambar.moe?language=en" title="CV" target="_blank" hover:text-teal-5>
 					<Icon name="pepicons:cv" h-8 w-8 />
-				</a>
+				</nuxt-link>
 			</section>
 			<dialog ref="dialog" rounded-md bg-gray-6 p-0 class="backdrop:bg-gray-9/70" @click="hideDialog()">
 				<div text-xl w-fit p-2 text-gray-3>

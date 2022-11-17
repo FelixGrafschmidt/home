@@ -7,10 +7,10 @@
 		</section>
 		<section v-for="(project, i) in projects" :key="i" xl:flex="~ row" gap-4 xl:even:flex-row-reverse justify-between items-center>
 			<div xl:w="2/3" flex="~ col">
-				<a w-fit hover:underline hover:text-teal-5 target="_blank" :href="project.url">
+				<nuxt-link w-fit hover:underline hover:text-teal-5 target="_blank" :href="project.url">
 					<span text-xl>{{ project.title }}</span>
-				</a>
-				<a
+				</nuxt-link>
+				<nuxt-link
 					mb-1
 					text-sm
 					w-min
@@ -21,8 +21,9 @@
 					hover:text-teal-5
 					target="_blank"
 					:href="project.source"
-					>{{ project.source }}</a
 				>
+					{{ project.source }}
+				</nuxt-link>
 				<p v-for="(line, j) in project.description" :key="j" my-1>{{ line }}</p>
 			</div>
 			<div xl:w="1/3" hidden xl:block>
