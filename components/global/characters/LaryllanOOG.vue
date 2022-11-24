@@ -1,5 +1,5 @@
 <template>
-	<div flex="~ col" gap-4 leading-8 my-8 mx-16>
+	<div flex="~ col" gap-4 leading-8 md:my-8 my-2 md:mx-16 mx-1>
 		<span>
 			The idea to create a character who intentionally abuses the Elvish magic present in Aventuria came about after I had played
 			Ithambar for quite some time. By then I had realized that Elves have some very powerful magic but their way of life limits them

@@ -1,12 +1,12 @@
 <template>
 	<div>
-		<div font-italic mt-8 mx-16 text-center flex="~ col" gap-2>
+		<div font-italic mt-2 md:mt-8 md:mx-16 mx-1 text-center flex="~ col" gap-2>
 			<span font-semibold>
 				Niemand wird perfekt geboren. Jeder kann nur nach Perfektion streben, ist er zu Beginn auch noch so weit von ihr entfernt.
 			</span>
 			<span> -- Nakua Tohos </span>
 		</div>
-		<div flex="~ row" justify-between my-8 mx-16 gap-4>
+		<div flex="~ row" justify-between md:my-8 my-2 md:mx-16 mx-1 gap-4>
 			<div w="1/2" flex="~ col" gap-4 leading-8>
 				<span> Aufgewachsen unter Menschen, nie wirklich verstanden, immer der Fremde, der Andere, der Seltsame… </span>
 				<span>
@@ -73,14 +73,14 @@
 				</span>
 			</div>
 		</div>
-		<div font-italic mx-16 text-center flex="~ col" gap-2>
+		<div font-italic md:mx-16 mx-1 text-center flex="~ col" gap-2>
 			<span font-semibold>
 				Die Natur ist der beste Lehrmeister. Nichts und niemand sonst besitzt die gleiche Vielzahl an Facetten und schafft es diese
 				auch in solcher Tiefe auszufüllen.
 			</span>
 			<span> -- Nakua Tohos </span>
 		</div>
-		<div flex="~ row" justify-between my-8 mx-16 gap-4>
+		<div flex="~ row" justify-between md:my-8 my-2 md:mx-16 mx-1 gap-4>
 			<div w="1/2" flex="~ col" gap-4 leading-8>
 				<span>
 					«Du weisst nicht, wer du bist. Suche in dir, denn nur wer sich selbst kennt kann auch hoffen die Welt zu kennen».
@@ -117,7 +117,7 @@
 				</span>
 			</div>
 		</div>
-		<div flex="~ col" my-8 mx-16 gap-4 leading-8>
+		<div flex="~ col" md:my-8 my-2 md:mx-16 mx-1 gap-4 leading-8>
 			<span>
 				«Es ging niemals darum, ob ich das eine oder das andere bin, ich bin BEIDES! Und Nakua sagt, dass es auch richtig so ist,
 				weil alles in unserer Welt aus zwei Aspekten besteht. Mir ist noch nicht ganz klar, was er damit meint, aber ich glaube zu
@@ -174,11 +174,11 @@
 			</span>
 			<span> Aber schon bald kam der Tag... </span>
 		</div>
-		<div font-italic mx-16 text-center flex="~ col" gap-2>
+		<div font-italic md:mx-16 mx-1 text-center flex="~ col" gap-2>
 			<span font-semibold> Der perfekte Krieger muss auch der perfekte Herrscher sein. </span>
 			<span> -- Nakua Tohos </span>
 		</div>
-		<div flex="~ col" my-8 mx-16 gap-4 leading-8>
+		<div flex="~ col" md:my-8 my-2 md:mx-16 mx-1 gap-4 leading-8>
 			<span>
 				«Was ist der Sinn deines Kämpfens?» Die Frage traf Masana unvorbereitet. Er hatte angenommen, dass das Kämpfen in sich
 				keinen Sinn habe, sondern dass es nur ein Mittel wäre. Als er diese Ansicht äusserte, zeigte Nakua sich zuerst enttäuscht.
