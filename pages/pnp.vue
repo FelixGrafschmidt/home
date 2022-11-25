@@ -185,11 +185,11 @@
 		{
 			tab: Tab.IG,
 			species: "Wood-Elf",
-			profession: "Ranger",
+			profession: "Wyldrunner",
 			active: false,
 			description: new Map<Tab, string>([
-				[Tab.IG, ""],
-				[Tab.OOG, ""],
+				[Tab.IG, "CharactersIthambarIG"],
+				[Tab.OOG, "CharactersIthambarOOG"],
 			]),
 			name: "Ithambar Glanz-der-Nacht",
 			sheets: new Map<System, string>([

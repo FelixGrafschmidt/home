@@ -1,9 +1,10 @@
 <template>
 	<div flex="~ col" gap-4 leading-8 md:my-8 my-2 md:mx-16 mx-1>
 		<span>
-			In Eiji Yoshikawa's novel, Masana is Musashi's family name before he leaves his ancestral village of Miyamoto.
+			In Eiji Yoshikawa's novel, "Masana" is Musashi's family name before he leaves his ancestral village of Miyamoto.
 			<br />
-			Similar to this, the name of his teacher, Nakua Sohot, is an anagram of Takuan Soho, Musashi's teacher in the novel.
+			Similar to this, the name of his teacher, "Nakua Tohos", is an anagram of "Takuan Soho", the name of Musashi's teacher in the
+			novel.
 			<br />
 			Visually I imagine Masana to be more akin to depictions of Musashi's rival Sasaki Kojiro in popular culture.
 		</span>

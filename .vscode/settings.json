@@ -2,5 +2,49 @@
 	"editor.formatOnSave": false,
 	"editor.codeActionsOnSave": {
 		"source.fixAll": true
-	}
+	},
+	"cSpell.enableFiletypes": [
+		"vue"
+	],
+	"cSpell.language": "en-GB,de",
+	"cSpell.words": [
+		"Aventuria",
+		"Aventurien",
+		"Aventuriens",
+		"aventurischen",
+		"Brabakian",
+		"Bronn",
+		"Cordowan",
+		"Eiji",
+		"Flaminjo",
+		"Gror",
+		"groscho",
+		"Hesindian",
+		"Ilumnestrian",
+		"Ithambar",
+		"Kjaskar",
+		"Kojiro",
+		"LARP",
+		"Laryllan",
+		"Maraskan",
+		"Masanas",
+		"Musashi",
+		"Nakua",
+		"Nakuas",
+		"nuxt",
+		"Pergimtosch",
+		"Pergschosch",
+		"Raskirson",
+		"Sasaki",
+		"Sindaru",
+		"Sohot",
+		"Stählung",
+		"Takuan",
+		"Taren",
+		"Tohos",
+		"Ungewusste",
+		"Weltendiskus",
+		"Wyldrunner",
+		"Yoshikawa's"
+	]
 }
