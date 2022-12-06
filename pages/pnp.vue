@@ -227,6 +227,21 @@
 				[System.TDE, "/characters/Hesindian.html"],
 			]),
 		},
+		{
+			tab: Tab.IG,
+			species: "Human",
+			profession: "Philosopher",
+			active: false,
+			description: new Map<Tab, string>([
+				[Tab.IG, ""],
+				[Tab.OOG, ""],
+			]),
+			name: "Khusrauh ibn Farsid sal Ismeth",
+			sheets: new Map<System, string>([
+				[System.DND, "https://www.dndbeyond.com/characters/89334334"],
+				[System.TDE, "/characters/Khusrauh.html"],
+			]),
+		},
 	]);
 
 	function selectCharacter(character: Character): void {
