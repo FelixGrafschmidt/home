@@ -64,7 +64,7 @@
 	const projects: Project[] = [
 		{
 			title: "Character List Manager",
-			url: "https://lists.ithambar.moe",
+			url: "https://lists.felgraf.dev",
 			description: [
 				"The origin of most of my projects is the same, I want to achieve something in my private life, start creating something for my personal use and then decide to make it available for everyone.",
 				"This was the first of these cases. I love anime and would like to have more merchandise. The best way to get merch is to visit conventions. Unfortunately I really don't like going to places with many strangers which put me in something of a bind. Initially my idea was to just have a list of images of characters I like and hand it to my wife when she visits conventions. While this did work in theory, I was not really content with the solution. Updating a pdf-file is not as comfortable as I would like so I set out to create a simple web app that can fulfill my goal. Over time I generalized the app more and more and in its current iteration it can, in theory, handle lists of any type, not only anime characters. I put huge emphasis on customizability so users can change pretty much everything, the lists, the individual entries, as well as the attributes an entry has.",
@@ -76,7 +76,7 @@
 		},
 		{
 			title: "Quiz",
-			url: "https://quiz.ithambar.moe",
+			url: "https://quiz.felgraf.dev",
 			description: [
 				"I listen to a lot of anime music (anison). And I mean A LOT. I am constantly expanding my collection and since my wife also likes some of the music, we listen to all my new additions after every season. At some point I had the idea to make a little quiz out of it. I would write down the genres of the shows, she listens to the songs and guesses which song matches to which genre combination.",
 				"Then the day of the annual visit of some of my dear friends drew near and I had the idea to make this little quiz into something that could be played with more people and proper techincal integration.",
@@ -88,7 +88,7 @@
 		},
 		{
 			title: "Recipes",
-			url: "https://recipes.ithambar.moe",
+			url: "https://recipes.felgraf.dev",
 			description: [
 				"(Only available in German right now since most of my recipes are in German, sorry)",
 				"My wife and I started cooking a little more two years ago and enjoyed it quite a bit. Unfortunately most of the time the most difficult part for us is to decide what to cook. To make this easier, I started developing this little application. Currently you can only save your recipes but the most important feature to be implemented is the ability to randomly generate a given number of recipes, matching some user defined tags, if required.",
@@ -98,7 +98,7 @@
 		},
 		// {
 		// 	title: "CV",
-		// 	url: "https://cv.ithambar.moe",
+		// 	url: "https://cv.felgraf.dev",
 		// 	description: [""],
 		// 	image: "/img/cv.png",
 		// 	source: "https://github.com/FelixGrafschmidt/cv",
