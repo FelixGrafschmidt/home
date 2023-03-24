@@ -13,7 +13,7 @@
 		"@unocss/nuxt": "^0.47.5",
 		"@unocss/reset": "^0.47.5",
 		"@vueuse/nuxt": "^9.6.0",
-		"nuxt": "3.0.0",
+		"nuxt": "3.3.2",
 		"nuxt-icon": "^0.1.8",
 		"pinia": "^2.0.27",
 		"tslib": "^2.4.1",
