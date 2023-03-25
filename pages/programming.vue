@@ -26,7 +26,7 @@
 				</nuxt-link>
 				<p v-for="(line, j) in project.description" :key="j" my-1>{{ line }}</p>
 			</div>
-			<div xl:w="1/3" hidden xl:block>
+			<div xl:w="1/3" un-hidden xl:block>
 				<img
 					:src="project.image"
 					:alt="project.title"
