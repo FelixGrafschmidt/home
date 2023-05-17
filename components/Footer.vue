@@ -21,7 +21,7 @@
 					Cookies
 				</button>
 			</section>
-			<section un-hidden xl:block>
+			<section class="hidden xl:block">
 				<Logo h-16 w-16 />
 			</section>
 			<section flex="~ row" gap-8 md:w="1/3" md:justify-end justify-between py-4 md:py-0>

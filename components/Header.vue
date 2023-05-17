@@ -8,11 +8,11 @@
 				top-25
 				w-full
 				bg-gray-8
-				:un-hidden="!menuOpen"
 				gap-x-2
 				justify-between
 				items-center
 				order-2
+				:class="{ hidden: !menuOpen }"
 			>
 				<nuxt-link
 					lg:h-24
@@ -47,7 +47,7 @@
 				>
 					Pen & Paper
 				</nuxt-link>
-				<div border-b-2 border-b-gray-3 flex-1 h-1 min-w-1 un-hidden xl:block />
+				<div class="border-b-2 border-b-gray-3 flex-1 h-1 min-w-1 hidden xl:block" />
 			</div>
 			<div md:w="1/7" lg:w="min" flex="~ row" items-center justify-between md:justify-center order-1 md:order-2 md:p-0 p-4>
 				<nuxt-link to="/" @click="menuOpen = false">
@@ -63,14 +63,14 @@
 				top-57
 				left-0
 				bg-gray-8
-				:un-hidden="!menuOpen"
+				:class="{ hidden: !menuOpen }"
 				gap-x-2
 				justify-between
 				items-center
 				w-full
 				order-3
 			>
-				<div border-b-2 border-b-gray-3 flex-1 h-1 min-w-1 un-hidden xl:block />
+				<div class="border-b-2 border-b-gray-3 flex-1 h-1 min-w-1 hidden xl:block" />
 				<nuxt-link
 					lg:h-24
 					h-16
