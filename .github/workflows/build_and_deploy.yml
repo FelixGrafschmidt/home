@@ -38,7 +38,7 @@ jobs:
                   PORT: ${{ secrets.PORT }}
                   USERNAME: ${{ secrets.USERNAME }}
                   PASSWORD: ${{ secrets.PASSWORD }}
-              uses: appleboy/scp-action@master
+              uses: appleboy/scp-action@v1.6.6
               with:
                   host: $HOST
                   port: $PORT
