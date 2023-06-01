@@ -5,19 +5,19 @@
 			<p text-xl>Here you can find a list of the projects I have worked on over the years in my spare time.</p>
 			<p text-xl>There are some additional projects that are not listed here since I decided to keep them private.</p>
 		</section>
-		<section v-for="(project, i) in projects" :key="i" xl:flex="~ row" gap-4 xl:even:flex-row-reverse justify-between items-center>
+		<section v-for="(project, i) in projects" :key="i" xl:flex="~ row" items-center justify-between gap-4 xl:even:flex-row-reverse>
 			<div xl:w="2/3" flex="~ col">
-				<nuxt-link w-fit hover:underline hover:text-teal-5 target="_blank" :href="project.url">
+				<nuxt-link w-fit hover:text-teal-5 hover:underline target="_blank" :href="project.url">
 					<span text-xl>{{ project.title }}</span>
 				</nuxt-link>
 				<nuxt-link
 					mb-1
-					text-sm
-					w-min
-					text-ellipsis
-					overflow-x-hidden
-					whitespace-nowrap
 					max-w-95vw
+					w-min
+					overflow-x-hidden
+					text-ellipsis
+					whitespace-nowrap
+					text-sm
 					hover:text-teal-5
 					target="_blank"
 					:href="project.source"
@@ -30,9 +30,9 @@
 				<img
 					:src="project.image"
 					:alt="project.title"
-					border-teal-5
-					border-1
 					cursor-pointer
+					border-1
+					border-teal-5
 					rounded-md
 					@click="showImage(project)"
 				/>
@@ -43,7 +43,7 @@
 		</dialog>
 		<div v-if="scrolled" sticky bottom-4 flex="~ row" justify-center>
 			<button w-12 rounded-full bg-gray-5 hover="text-teal-5" @click="toTop">
-				<Icon name="fa:arrow-up" w-6 h-12 />
+				<Icon name="fa:arrow-up" h-12 w-6 />
 			</button>
 		</div>
 	</main>

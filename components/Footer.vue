@@ -1,19 +1,19 @@
 <template>
-	<div flex="~ col" md:flex="~ row" justify-center items-center relative border-y-gray-6 border-y-2>
-		<footer flex="~ col" md:flex="~ row" w-80vw lg:w-70vw xl:w-60vw h-min gap-2 justify-between items-center>
+	<div flex="~ col" md:flex="~ row" relative items-center justify-center border-y-2 border-y-gray-6>
+		<footer flex="~ col" md:flex="~ row" h-min w-80vw items-center justify-between gap-2 lg:w-70vw xl:w-60vw>
 			<section flex="~ col" md:flex="~ row" md:gap-8 md:w="1/3">
-				<nuxt-link h-16 flex="col ~" justify-center w-screen md:w-auto text-center hover:text-teal-5 to="/imprint"
+				<nuxt-link flex="col ~" h-16 w-screen justify-center text-center md:w-auto hover:text-teal-5 to="/imprint"
 					>Imprint</nuxt-link
 				>
 
 				<button
-					h-16
 					flex="col ~"
+					h-16
+					w-screen
 					items-center
 					justify-center
-					w-screen
-					md:w-auto
 					text-center
+					md:w-auto
 					hover:text-teal-5
 					to="/cookies"
 					@click="showDialog()"
@@ -24,7 +24,7 @@
 			<section class="hidden xl:block">
 				<Logo h-16 w-16 />
 			</section>
-			<section flex="~ row" gap-8 md:w="1/3" md:justify-end justify-between py-4 md:py-0>
+			<section flex="~ row" md:w="1/3" justify-between gap-8 py-4 md:justify-end md:py-0>
 				<nuxt-link to="https://github.com/FelixGrafschmidt" title="GitHub" target="_blank" hover:text-teal-5>
 					<Icon name="fa:github" h-8 w-8 />
 				</nuxt-link>
@@ -39,7 +39,7 @@
 				</nuxt-link>
 			</section>
 			<dialog ref="dialog" rounded-md bg-gray-6 p-0 class="backdrop:bg-gray-9/70" @click="hideDialog()">
-				<div text-xl w-fit p-2 text-gray-3>
+				<div w-fit p-2 text-xl text-gray-3>
 					<span @click.stop> This website does not use any cookies. </span>
 				</div>
 			</dialog>

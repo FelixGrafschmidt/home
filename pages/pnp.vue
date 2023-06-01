@@ -4,8 +4,8 @@
 		<span text-lg> I have been playing Pen-and-Paper-RPGs since 2010 and I am loving them! </span>
 		<span text-md>Warning! Wild mixture of German and English below! You have been warned!</span>
 		<section mb-4 flex="~ col" gap-2>
-			<div v-for="(character, i) in characters" :key="i" target="_blank" rounded border>
-				<div p-2 cursor-pointer text-xl @click="selectCharacter(character)">
+			<div v-for="(character, i) in characters" :key="i" target="_blank" border rounded>
+				<div cursor-pointer p-2 text-xl @click="selectCharacter(character)">
 					{{ character.name }}
 				</div>
 				<div v-if="character.active" rounded-b bg-gray-8>
@@ -13,37 +13,37 @@
 						<span>Species: {{ character.species }}</span>
 						<span>Profession: {{ character.profession }}</span>
 					</div>
-					<div flex="~ row" gap-2 items-center px-2>
+					<div flex="~ row" items-center gap-2 px-2>
 						<span>Character Sheet:</span>
 						<nuxt-link
 							v-if="character.sheets.get(System.TDE)"
 							:to="character.sheets.get(System.TDE)"
-							hover:text-teal-4
 							target="_blank"
-							underline
 							text-sm
+							underline
+							hover:text-teal-4
 							>TDE</nuxt-link
 						>
 						<nuxt-link
 							v-if="character.sheets.get(System.DND)"
 							:to="character.sheets.get(System.DND)"
-							hover:text-teal-4
 							target="_blank"
-							underline
 							text-sm
+							underline
+							hover:text-teal-4
 							>DnD</nuxt-link
 						>
 					</div>
-					<div flex="~ row" justify-around border-t mt-2 items-center>
+					<div flex="~ row" mt-2 items-center justify-around border-t>
 						<span
 							v-if="character.description.get(Tab.IG)"
 							:class="character.tab === Tab.IG ? 'bg-gray-7 border-b-gray-7' : 'border-b-gray-3'"
-							border-b
-							cursor-pointer
-							py-2
 							grow
-							text-center
+							cursor-pointer
+							border-b
 							border-r
+							py-2
+							text-center
 							w="1/2"
 							@click="character.tab = Tab.IG"
 						>
@@ -52,10 +52,10 @@
 						<span
 							v-if="character.description.get(Tab.OOG)"
 							:class="character.tab === Tab.OOG ? 'bg-gray-7 border-b-gray-7' : 'border-b-gray-3'"
-							border-b
-							cursor-pointer
-							py-2
 							grow
+							cursor-pointer
+							border-b
+							py-2
 							text-center
 							w="1/2"
 							@click="character.tab = Tab.OOG"
@@ -64,19 +64,19 @@
 						</span>
 					</div>
 					<div
+						max-h-96
+						overflow-y-overlay
+						rounded-b
 						bg-gray-7
 						p-2
-						rounded-b
-						max-h-96
+						scrollbar-thumb-color-gray-9
+						scrollbar-track-color-gray-5
+						scrollbar-radius-2
+						scrollbar-thumb-radius-4
+						scrollbar-track-radius-4
+						scrollbar-w-2
 						scrollbar
 						scrollbar-rounded
-						scrollbar-w-2
-						scrollbar-radius-2
-						scrollbar-track-radius-4
-						scrollbar-thumb-radius-4
-						scrollbar-track-color-gray-5
-						scrollbar-thumb-color-gray-9
-						overflow-y-overlay
 					>
 						<component :is="character.description.get(character.tab)" />
 					</div>

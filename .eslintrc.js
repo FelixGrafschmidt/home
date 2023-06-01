@@ -17,6 +17,7 @@ module.exports = {
 		"plugin:prettier/recommended",
 		"plugin:vue/base",
 		"plugin:nuxt/recommended",
+		"@unocss",
 	],
 	plugins: ["prettier", "@typescript-eslint"],
 	// add your custom rules here
