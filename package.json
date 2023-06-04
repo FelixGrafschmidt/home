@@ -10,7 +10,7 @@
 	},
 	"dependencies": {
 		"@pinia/nuxt": "^0.4.7",
-		"@unocss/nuxt": "^0.50.6",
+		"@unocss/nuxt": "^0.53.0",
 		"@unocss/reset": "^0.50.6",
 		"@vueuse/nuxt": "^9.13.0",
 		"nuxt": "3.3.2",
