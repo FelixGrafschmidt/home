@@ -7,7 +7,6 @@
 		"build": "nuxt build",
 		"generate": "nuxt generate",
 		"preview": "nuxt preview",
-		"postbuild": "vitest run -u",
 		"postinstall": "nuxt prepare",
 		"upgrade": "nuxi upgrade"
 	},
