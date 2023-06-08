@@ -19,7 +19,7 @@ module.exports = {
 		"plugin:nuxt/recommended",
 		"@unocss",
 	],
-	plugins: ["prettier", "@typescript-eslint"],
+	plugins: ["prettier", "@typescript-eslint", "vitest"],
 	// add your custom rules here
 	rules: {
 		"no-console": "off",

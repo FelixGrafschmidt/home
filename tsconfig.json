@@ -3,7 +3,7 @@
 	"extends": "./.nuxt/tsconfig.json",
 	"compilerOptions": {
 		"types": [
-			"@pinia/nuxt"
+			"@pinia/nuxt","vitest/globals"
 		],
 		"noImplicitAny": true,
 		"allowSyntheticDefaultImports": true

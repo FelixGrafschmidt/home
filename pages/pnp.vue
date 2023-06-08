@@ -78,7 +78,10 @@
 						scrollbar
 						scrollbar-rounded
 					>
-						<component :is="character.description.get(character.tab)" />
+						<component
+							:is="resolveComponent(character.description.get(character.tab)!)"
+							v-if="character.description.get(character.tab)"
+						/>
 					</div>
 				</div>
 			</div>

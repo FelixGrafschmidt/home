@@ -15,7 +15,6 @@
 					text-center
 					md:w-auto
 					hover:text-teal-5
-					to="/cookies"
 					@click="showDialog()"
 				>
 					Cookies
