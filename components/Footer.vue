@@ -34,7 +34,7 @@
 				<nuxt-link to="https://www.xing.com/profile/Felix_Grafschmidt2" title="Xing" target="_blank" hover:text-teal-5>
 					<Icon name="fa:xing" h-8 w-8 />
 				</nuxt-link>
-				<nuxt-link to="https://cv.felgraf.dev?language=en" title="CV" target="_blank" hover:text-teal-5>
+				<nuxt-link to="https://cv.felgraf.dev" title="CV" target="_blank" hover:text-teal-5>
 					<Icon name="pepicons:cv" h-8 w-8 />
 				</nuxt-link>
 			</section>
