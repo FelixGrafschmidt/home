@@ -1,5 +1,5 @@
 <template>
-	<div flex="~ col" gap-4 leading-8 md:my-8 my-2 md:mx-16 mx-1>
+	<div flex="~ col" mx-1 my-2 gap-4 leading-8 md:mx-16 md:my-8>
 		<span>
 			In Eiji Yoshikawa's novel, "Masana" is Musashi's family name before he leaves his ancestral village of Miyamoto.
 			<br />

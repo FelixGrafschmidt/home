@@ -1,8 +1,8 @@
 <template>
-	<main text-lg flex="~ col" gap-4 px-10vw>
+	<main flex="~ col" gap-4 px-10vw text-lg>
 		<span text-2xl font-semibold>Imprint</span>
 		<p flex="~ col">
-			<span text-xl mb-2 font-semibold>Responsible entity</span>
+			<span mb-2 text-xl font-semibold>Responsible entity</span>
 			<span> Felix Grafschmidt</span>
 			<span> Feldstrasse 13</span>
 			<span> 5415 Nussbaumen AG</span>
@@ -12,7 +12,7 @@
 		</p>
 
 		<p flex="~ col">
-			<span text-xl mb-2 font-semibold>Disclaimer</span>
+			<span mb-2 text-xl font-semibold>Disclaimer</span>
 			<span>
 				The author assumes no liability for the correctness, accuracy, timeliness, reliability and completeness of the information.
 				Liability claims against the author for material or immaterial damage resulting from access to, use or non-use of the
@@ -24,14 +24,14 @@
 			</span>
 		</p>
 		<p flex="~ col">
-			<span text-xl mb-2 font-semibold>Disclaimer for content and links</span>
+			<span mb-2 text-xl font-semibold>Disclaimer for content and links</span>
 			<span>
 				References and links to third party websites are outside our area of responsibility. We reject any responsibility for such
 				websites. Access to and use of such websites is at the user's own risk.
 			</span>
 		</p>
 		<p flex="~ col">
-			<span text-xl mb-2 font-semibold>Copyright declaration</span>
+			<span mb-2 text-xl font-semibold>Copyright declaration</span>
 			<span>
 				The copyrights and all other rights to content, images, photos or other files on this website belong exclusively to Felix
 				Grafschmidt or the specifically named rights holders. The written consent of the copyright holder must be obtained in

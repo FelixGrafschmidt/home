@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<div flex="~ col" gap-4 leading-8 md:my-8 my-2 md:mx-16 mx-1>
+		<div flex="~ col" mx-1 my-2 gap-4 leading-8 md:mx-16 md:my-8>
 			<span>
 				Ithambar is the first character I ever created and also the character I have played the most. His name was initially the
 				name of my first ever character in "The Elder Scrolls IV: Oblivion", given to him by my best friend at the time. Even
