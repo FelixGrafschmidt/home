@@ -1,5 +1,5 @@
 <template>
-	<div flex="~ col" mx-1 my-2 gap-4 leading-8 md:mx-16 md:my-8>
+	<div class="mx-1 my-2 flex flex-col gap-4 leading-8 md:mx-16 md:my-8">
 		<span> The only truly evil character I have ever created and actually want to play. </span>
 		<span
 			>The name has somewhat of a history.

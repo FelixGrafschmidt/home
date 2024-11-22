@@ -1,49 +1,43 @@
 <template>
-	<main flex="col ~" gap-4>
-		<span text-2xl font-semibold>My Projects</span>
-		<section mb-4>
-			<p text-xl>Here you can find a list of the projects I have worked on over the years in my spare time.</p>
-			<p text-xl>There are some additional projects that are not listed here since I decided to keep them private.</p>
+	<main class="flex flex-col gap-4">
+		<span class="text-2xl font-semibold">My Projects</span>
+		<section class="mb-4">
+			<p class="text-xl">Here you can find a list of the projects I have worked on over the years in my spare time.</p>
+			<p class="text-xl">There are some additional projects that are not listed here since I decided to keep them private.</p>
 		</section>
-		<section v-for="(project, i) in projects" :key="i" xl:flex="~ row" items-center justify-between gap-4 xl:even:flex-row-reverse>
-			<div xl:w="2/3" flex="~ col">
-				<nuxt-link w-fit hover:text-teal-5 hover:underline target="_blank" :href="project.url">
-					<span text-xl>{{ project.title }}</span>
+		<section
+			v-for="(project, i) in projects"
+			:key="i"
+			class="items-center justify-between gap-4 xl:flex xl:flex-row xl:even:flex-row-reverse"
+		>
+			<div class="flex flex-col xl:w-2/3">
+				<nuxt-link class="w-fit hover:text-teal-5 hover:underline" target="_blank" :href="project.url">
+					<span class="text-xl">{{ project.title }}</span>
 				</nuxt-link>
 				<nuxt-link
-					mb-1
-					max-w-95vw
-					w-min
-					overflow-x-hidden
-					text-ellipsis
-					whitespace-nowrap
-					text-sm
-					hover:text-teal-5
+					class="mb-1 max-w-95vw w-min overflow-x-hidden text-ellipsis whitespace-nowrap text-sm hover:text-teal-5"
 					target="_blank"
 					:href="project.source"
 				>
 					{{ project.source }}
 				</nuxt-link>
-				<p v-for="(line, j) in project.description" :key="j" my-1>{{ line }}</p>
+				<p v-for="(line, j) in project.description" :key="j" class="my-1">{{ line }}</p>
 			</div>
-			<div xl:w="1/3" class="hidden xl:block">
+			<div class="hidden xl:block xl:w-1/3">
 				<img
 					:src="project.image"
 					:alt="project.title"
-					cursor-pointer
-					border-1
-					border-teal-5
-					rounded-md
+					class="cursor-pointer border-1 border-teal-5 rounded-md"
 					@click="showImage(project)"
 				/>
 			</div>
 		</section>
-		<dialog ref="dialog" p-0 w="80%" class="backdrop:bg-gray-9/70" @click="hideImage">
+		<dialog ref="dialog" class="w-80% p-0 backdrop:bg-gray-9/70" @click="hideImage">
 			<img :src="largeImage" :alt="largeImage" @click.stop />
 		</dialog>
-		<div v-if="scrolled" sticky bottom-4 flex="~ row" justify-center>
-			<button w-12 rounded-full bg-gray-5 hover="text-teal-5" @click="toTop">
-				<Icon name="fa:arrow-up" h-12 w-6 />
+		<div v-if="scrolled" class="sticky bottom-4 flex flex-row justify-center">
+			<button class="w-12 rounded-full bg-gray-5 hover:text-teal-5" @click="toTop">
+				<Icon name="fa:arrow-up" class="h-12 w-6" />
 			</button>
 		</div>
 	</main>
@@ -96,13 +90,6 @@
 			image: "/img/recipes.png",
 			source: "https://github.com/FelixGrafschmidt/recipes",
 		},
-		// {
-		// 	title: "CV",
-		// 	url: "https://cv.felgraf.dev",
-		// 	description: [""],
-		// 	image: "/img/cv.png",
-		// 	source: "https://github.com/FelixGrafschmidt/cv",
-		// },
 	];
 
 	const scrolled = computed(() => {

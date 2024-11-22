@@ -1,13 +1,13 @@
 <template>
 	<div>
-		<div flex="~ col" mx-1 mt-2 gap-2 text-center font-italic md:mx-16 md:mt-8>
-			<span font-semibold>
+		<div class="mx-1 mt-2 flex flex-col gap-2 text-center font-italic md:mx-16 md:mt-8">
+			<span class="font-semibold">
 				Niemand wird perfekt geboren. Jeder kann nur nach Perfektion streben, ist er zu Beginn auch noch so weit von ihr entfernt.
 			</span>
 			<span> -- Nakua Tohos </span>
 		</div>
-		<div flex="~ row" mx-1 my-2 justify-between gap-4 md:mx-16 md:my-8>
-			<div w="1/2" flex="~ col" gap-4 leading-8>
+		<div class="mx-1 my-2 flex flex-row justify-between gap-4 md:mx-16 md:my-8">
+			<div class="w-1/2 flex flex-col gap-4 leading-8">
 				<span> Aufgewachsen unter Menschen, nie wirklich verstanden, immer der Fremde, der Andere, der Seltsame… </span>
 				<span>
 					So sehr seine Mutter seinen Vater auch liebte, so sehr war Masana selbst ihr egal. Die Zeiten, die er in Riva verbringen
@@ -41,7 +41,7 @@
 					physische Kraft handelte. Neugierig geworden, bot er ihm an, sein Abendmahl zu teilen, was dieser dankend annahm.
 				</span>
 			</div>
-			<div w="1/2" flex="~ col" gap-4 leading-8>
+			<div class="w-1/2 flex flex-col gap-4 leading-8">
 				<span>
 					Aufgewachsen unter Elfen, nie wirklich getraut, immer der Schwache, der Unbeholfene, der Unstete, der Ungewusste, der
 					Unbedachte…
@@ -73,15 +73,15 @@
 				</span>
 			</div>
 		</div>
-		<div flex="~ col" mx-1 gap-2 text-center font-italic md:mx-16>
-			<span font-semibold>
+		<div class="mx-1 flex flex-col gap-2 text-center font-italic md:mx-16">
+			<span class="font-semibold">
 				Die Natur ist der beste Lehrmeister. Nichts und niemand sonst besitzt die gleiche Vielzahl an Facetten und schafft es diese
 				auch in solcher Tiefe auszufüllen.
 			</span>
 			<span> -- Nakua Tohos </span>
 		</div>
-		<div flex="~ row" mx-1 my-2 justify-between gap-4 md:mx-16 md:my-8>
-			<div w="1/2" flex="~ col" gap-4 leading-8>
+		<div class="mx-1 my-2 flex flex-row justify-between gap-4 md:mx-16 md:my-8">
+			<div class="w-1/2 flex flex-col gap-4 leading-8">
 				<span>
 					«Du weisst nicht, wer du bist. Suche in dir, denn nur wer sich selbst kennt kann auch hoffen die Welt zu kennen».
 					Welches Interesse hatte er daran die Welt zu kennen? Hatte sie nicht deutlich gezeigt, dass sie kein Interesse an ihm
@@ -100,7 +100,7 @@
 					gab, die ihm einen wesentlichen Teil seiner Selbst offenbaren könnte, erfüllte ihn mit Neugier.
 				</span>
 			</div>
-			<div w="1/2" flex="~ col" gap-4 leading-8>
+			<div class="w-1/2 flex flex-col gap-4 leading-8">
 				<span>
 					«Du weisst nicht, wer du bist. Suche in dir, denn nur wer sich selbst kennt kann auch hoffen die Welt zu kennen». Seine
 					Worte klangen lange in Masana nach. Was sollte es bedeuten «sich selbst zu kennen»? Wen ausser sich selbst sollte man
@@ -117,7 +117,7 @@
 				</span>
 			</div>
 		</div>
-		<div flex="~ col" mx-1 my-2 gap-4 leading-8 md:mx-16 md:my-8>
+		<div class="mx-1 my-2 flex flex-col gap-4 leading-8 md:mx-16 md:my-8">
 			<span>
 				«Es ging niemals darum, ob ich das eine oder das andere bin, ich bin BEIDES! Und Nakua sagt, dass es auch richtig so ist,
 				weil alles in unserer Welt aus zwei Aspekten besteht. Mir ist noch nicht ganz klar, was er damit meint, aber ich glaube zu
@@ -174,11 +174,11 @@
 			</span>
 			<span> Aber schon bald kam der Tag... </span>
 		</div>
-		<div flex="~ col" mx-1 gap-2 text-center font-italic md:mx-16>
-			<span font-semibold> Der perfekte Krieger muss auch der perfekte Herrscher sein. </span>
+		<div class="mx-1 flex flex-col gap-2 text-center font-italic md:mx-16">
+			<span class="font-semibold"> Der perfekte Krieger muss auch der perfekte Herrscher sein. </span>
 			<span> -- Nakua Tohos </span>
 		</div>
-		<div flex="~ col" mx-1 my-2 gap-4 leading-8 md:mx-16 md:my-8>
+		<div class="mx-1 my-2 flex flex-col gap-4 leading-8 md:mx-16 md:my-8">
 			<span>
 				«Was ist der Sinn deines Kämpfens?» Die Frage traf Masana unvorbereitet. Er hatte angenommen, dass das Kämpfen in sich
 				keinen Sinn habe, sondern dass es nur ein Mittel wäre. Als er diese Ansicht äusserte, zeigte Nakua sich zuerst enttäuscht.

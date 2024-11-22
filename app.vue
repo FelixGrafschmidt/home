@@ -1,9 +1,9 @@
 <template>
-	<div flex="~ col" relative min-h-screen bg-gray-7 text-gray-3>
-		<Header w-full bg-gray-8 />
-		<NuxtPage mx-auto w-95vw flex-grow py-4 lg:w-70vw md:w-80vw sm:w-80vw xl:w-60vw />
-		<Footer bg-gray-8 />
-		<div py-2 text-center>&copy; Felix Grafschmidt {{ new Date().getFullYear() }}</div>
+	<div class="relative min-h-screen flex flex-col bg-gray-7 text-gray-3">
+		<Header class="w-full bg-gray-8" />
+		<NuxtPage class="mx-auto w-95vw flex-grow py-4 lg:w-70vw md:w-80vw sm:w-80vw xl:w-60vw" />
+		<Footer class="bg-gray-8" />
+		<div class="py-2 text-center">&copy; Felix Grafschmidt {{ new Date().getFullYear() }}</div>
 	</div>
 </template>
 
