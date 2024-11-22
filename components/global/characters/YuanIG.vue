@@ -1,5 +1,5 @@
 <template>
-	<div flex="~ col" mx-1 my-2 gap-4 leading-8 md:mx-16 md:my-8>
+	<div class="mx-1 my-2 flex flex-col gap-4 leading-8 md:mx-16 md:my-8">
 		<span>
 			My name is Yuan Flaminjo Kjaskar Raskirson, though you most likely know me as "Vitario Salmoranes". Why am I using a pseudonym,
 			you ask? Well, that depends who is asking. If I take you for a person who is sympathetic to my cause, I might tell you the

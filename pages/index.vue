@@ -1,5 +1,5 @@
 <template>
-	<main flex="~ col" gap-4 px-10vw text-lg>
+	<main class="flex flex-col gap-4 px-10vw text-lg">
 		<p>Good day dear visitor!</p>
 		<p>Welcome to my humble web presence.</p>
 		<p>
