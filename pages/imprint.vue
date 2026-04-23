@@ -4,8 +4,8 @@
 		<p class="flex flex-col">
 			<span class="mb-2 text-xl font-semibold">Responsible entity</span>
 			<span>Felix Grafschmidt</span>
-			<span>Feldstrasse 13</span>
-			<span>5415 Nussbaumen AG</span>
+			<span>Hofmannstrasse 20</span>
+			<span>8405 Winterthur</span>
 			<span>Switzerland</span>
 			<span class="mt-2 text-xl">Email</span>
 			felix.grafschmidt@gmail.com
